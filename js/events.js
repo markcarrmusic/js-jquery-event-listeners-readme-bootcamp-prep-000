@@ -13,9 +13,11 @@ function frameIt() {
 }
 
 function pressIt() {
-  $(document).on('keydown' function(key) {
-    if(key === )
-  })
+  $(document).on('keydown', function(key) {
+    if(key === 103) {
+      alert('G was pressed!');
+    }
+  });
 }
 
 $(document).ready(function(){
