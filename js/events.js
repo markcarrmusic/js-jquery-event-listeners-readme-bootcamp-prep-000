@@ -12,6 +12,12 @@ function frameIt() {
   });
 }
 
+function pressIt() {
+  $(document).on('keydown' function(key) {
+    if(key === )
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
